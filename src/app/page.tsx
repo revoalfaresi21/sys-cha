@@ -1,101 +1,113 @@
-import Image from "next/image";
+'use client';
 
-export default function Home() {
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+import LetterGlitch from '@/component/LetterGlitch'; 
+
+export default function LoginPage() {
+  const [name, setName] = useState('');
+  const [error, setError] = useState(false);
+  const router = useRouter();
+
+  const handleLogin = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (name.toLowerCase() === 'ocil') {
+      router.push('/valentine');
+    } else {
+      setError(true);
+      setTimeout(() => setError(false), 2000);
+    }
+  };
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+    <main className="relative w-full h-screen overflow-hidden bg-black font-sans text-white">
+      
+      {/* 1. BACKGROUND LAYER: Glitch dengan karakter biner & hati, warna Neon Pink/Magenta */}
+      <div className="absolute inset-0 z-0 opacity-80">
+        <LetterGlitch
+          glitchSpeed={50}
+          centerVignette={true}
+          outerVignette={true}
+          smooth={true}
+          glitchColors={['#ff1493', '#ff69b4', '#f3c6f2', '#c71585']} // Palet Deep Pink & Magenta
+          characters="0101♥♡xoxOX!@#%*^" // Karakter khusus hacker romantis
         />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+      </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      {/* 2. CRT SCANLINE OVERLAY: Efek garis monitor jadul (Pointer events none agar tidak menutupi klik) */}
+      <div className="pointer-events-none absolute inset-0 z-10 bg-[linear-gradient(rgba(0,0,0,0)_50%,rgba(0,0,0,0.25)_50%)] bg-[length:100%_4px] opacity-30"></div>
+
+      {/* 3. CONTENT LAYER: Glassmorphism Terminal */}
+      <div className="relative z-20 flex h-full flex-col items-center justify-center px-4">
+        
+        <div className="w-full max-w-md animate-in fade-in zoom-in duration-1000">
+          <div className="rounded-sm border border-[#ff69b4]/40 bg-black/80 p-8 backdrop-blur-md shadow-[0_0_50px_rgba(255,105,180,0.2)]">
+            
+            {/* Header Tematik */}
+            <div className="mb-8 border-b border-[#ff69b4]/30 pb-4 text-center">
+              <h2 className="text-2xl font-bold font-mono text-[#ffb6c1] tracking-[0.25em] drop-shadow-[0_0_15px_rgba(255,105,180,0.8)]">
+                SYS.AUTH.VALENTINE
+              </h2>
+              <p className="mt-2 text-xs font-mono text-[#ff69b4]/70 tracking-widest">
+                ENCRYPTED_HEART_PROTOCOL
+              </p>
+            </div>
+
+            <form onSubmit={handleLogin} className="flex flex-col gap-6">
+              <div className="relative group">
+                {/* Input Field dengan efek Neon Glow */}
+                <input
+                  type="text"
+                  placeholder="Enter Key_to_My_Heart..."
+                  value={name}
+                  onChange={(e) => {
+                    setName(e.target.value);
+                    setError(false);
+                  }}
+                  autoFocus
+                  className={`w-full rounded-sm border bg-black/60 px-4 py-4 text-center font-mono text-xl text-[#ffb6c1] placeholder-[#ff69b4]/40 focus:outline-none transition-all duration-300
+                    ${error 
+                      ? 'border-red-500 animate-shake shadow-[0_0_20px_rgba(255,0,0,0.6)]' 
+                      : 'border-[#ff69b4]/50 focus:border-[#ff1493] focus:shadow-[0_0_25px_rgba(255,20,147,0.4)]'
+                    }
+                  `}
+                />
+              </div>
+
+              {/* Tombol ACCESS */}
+              <button
+                type="submit"
+                className="group relative w-full overflow-hidden rounded-sm bg-[#ff1493] py-4 text-lg font-bold uppercase tracking-[0.3em] text-black transition-all hover:scale-[1.02] hover:bg-[#ff69b4] hover:shadow-[0_0_40px_rgba(255,20,147,0.7)]"
+              >
+                <span className="relative z-10 font-mono">DECRYPT & ACCESS</span>
+                {/* Efek kilau saat hover */}
+                <div className="absolute inset-0 -translate-x-full bg-white/40 skew-x-12 transition-transform duration-700 group-hover:translate-x-full"></div>
+              </button>
+            </form>
+
+            {/* STATUS SYSTEM */}
+            <div className="mt-8 flex items-center justify-center gap-2">
+               <span className="relative flex h-2 w-2">
+                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#ffb6c1] opacity-75"></span>
+                 <span className="relative inline-flex rounded-full h-2 w-2 bg-[#ff69b4]"></span>
+               </span>
+               <span className="font-mono text-xs tracking-widest text-[#ff69b4]/80 uppercase">
+                 Heartbeat Sync: Stable
+               </span>
+            </div>
+
+            {/* Pesan Error Tematik */}
+            {error && (
+               <div className="mt-6 text-center font-mono text-xs text-red-400 bg-red-950/40 p-3 rounded-sm border border-red-900/60">
+                 [ERR_AUTH_FAILED] <br/>
+                 <span className="text-red-300/70 mt-1 block">Hint: What’s your catto called?</span>
+               </div>
+            )}
+            
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+
+      </div>
+    </main>
   );
 }
