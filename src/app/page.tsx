@@ -148,7 +148,7 @@ export default function LoginPage() {
                         &gt;_
                       </span>
                       <input
-                        type="text"
+                        type="password"
                         placeholder="type your secret key"
                         value={name}
                         onChange={(e) => {

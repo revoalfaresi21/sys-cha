@@ -84,8 +84,9 @@ const heartbeatLogMessages = [
 ];
 
 const futureMessage = [
-  `NYONG NYONGGGGGGG APPY ENIPPPPPP NYONGNYONGGGGGGGGGGGGGGGGGG 🥳🥳🥳`,
-  `awalnya tu yah, kamu ngechat aku dan woahhh dalam hati "WOOHHHHHHH CANTIK BANGET YANG NGECHAT", "hai epo tebak siapa ☝️☝️" katanya tuu, terus aku "WUOOOOOOOOOOOOOOO SIAPA NIIIIIIII", terus aku kerjain balik, aku bilang "bayu" AHAHAHAHAHAHA, ternyata "ACCAAAAAAAA WUIII CANTIK BANGETTTT", abis tu terus kita lanjut chit-chat, rasanya dag dig dug dag dig dug pokoknya mah deg deg an parah tapi rasanya tu CIHUYYYYYYY`,
+  `NYONG NYONGGGGGGG
+APPY ENIPPPPPP NYONGNYONGGGGGGGGGGGGGGGGGG 🥳🥳🥳`,
+  `hihihihiii nda kerasa ya yang awalnya tu, kamu ngechat aku dan woahhh dalam hati "WOOHHHHHHH CANTIK BANGET YANG NGECHAT", "hai epo tebak siapa ☝️☝️" katanya tuu, terus aku "WUOOOOOOOOOOOOOOO SIAPA NIIIIIIII", terus aku kerjain balik, aku bilang "bayu" AHAHAHAHAHAHA, ternyata "ACCAAAAAAAA WUIII CANTIK BANGETTTT", abis tu terus kita lanjut chit-chat, rasanya dag dig dug dag dig dug pokoknya mah deg deg an parah tapi rasanya tu CIHUYYYYYYY`,
   `aku bersyukur banget kamu mau lanjut chatting sama aku, aku seneng banget pas waktu itu kamu selalu bales chat aku walaupun ada suatu momen chat aku belum kamu balas-balas 💔 tapi aku bersyukur kamu akhirnya mau buat bales aku terus yapping ke aku soal ormawa kamu, soal kehidupan kamu di tasik, hidup sendiri di kos, aku senenggg banget kamu mau buat sharing pas waktu itu`,
   `sumpah di hari pas waktu kita pertama ketemu lagi ya, itu pas aku beli kemripik kamu, DEG DEGANNYA MAKIN PARAH MAKIN CIHUYYYYY, wah aku sampe prepare mampus pokoknya harus prepare untuk bertemu calon my accaa aku. pas udah ketemu kita ngobrol banyak WUHUUUUU nervous abis, mana ketauan lagi ya aku nervous dan tremor sama kamu noooo tidak cool sekali, tapi aku tetep bangga sama diri aku yang bisa nyambung ngobrol sama kamu dan full respect sama kamu. WOHIYAAA ada lagi pas waktu kamu pertama kali ketemu IWOOOOOO, WIIII TANGAN KITA BERSENTUHAN RASANYA MENYETRUM CIHUY yang aku rasain pas waktu itu tu senenggg banget terus nda enak juga soalnya aku mikir "GAPAPA KAHHH AKU MIKIR TANGANNYA LEMBUT BANGEEETTTTTTT HUWAAAAAAAAAA" (W ASSIST CIWO), terus poto-potoooo HIHIHI senenggg banget kamu mau aku ajak buat poto bareng, aku juga agak panik pas temen-temen aku kelewatan buat bantu moto, jadi geger geden kan ya, sempet khawatir tapi kamunya senang jadi aku juga SENENG BANGETTTT SOALNYA DICERITAIN KE MAMAAAAAAAAAA OMGGG CALON MANTU KAH INI GUYS`,
   `banyaaakkk banget hal-hal manis manis manis karena kamu manis yang enak sekali pas kamu manggil aku epo manis terus aku balas aca manis IWUYY KYAAAAA ITU MANIS CEKAYIIIII HUWAAAA MELELEHHHH terus kita lanjut sampe sayang-sayangan sumpah itu manis bangettt, pas waktu kamu kirim foto yang menurut kamu sudah anggun cantik (pasti epo bakal suka) WAHHH ITU GA BISA SIH GA BISA AKU GA MELELEHHHH MANA CANTIK BANGETTTTTT SUKA BANGETTTTT ANGGUN BANGEEETTTTTTT, aku kirim foto aku terus kamu bilang manis HWAAAAAA MELELEH GA SIH GUYSSS, EH IYA awal kita kiss-kiss juga, AAAAAAAAAAAAAAAAAAAAAAAAAAAAA >///< rasanya melayang bangettt lembut sekali iniiii melayang-layang, lucu banget pas "hampir aja" hampir aja hampir aja momen, WOMAGAHHHHH KITA BELUM JADIAN KISSINGGG DI ANIME NGGA GITUUUUU APAKAH INI KISAH NYATA YANG LEBIH BAGUS DARI ANIMEEEE WUOOOOOOOOOOOOOOOOOOOOOOOOOOO.`,
@@ -94,10 +95,10 @@ const futureMessage = [
   `aku bersyukurrr banget kita bisa melewati hari-hari yang cukup menyulitkan bareng-bareng, aku bersyukur banget kamu mau mengkomunikasikan ke aku ketika kamu bete, kamu kesel, kamu marah, dan kamu sedih aku bersyukur banget dan aku bangga sama kamu yang mau mengkomunikasikannya ke aku karena aku tau itu adalah hal yang sulit buat mengkomunikasikannya, sehingga kita bisa menyelesaikan masalah kita dengan sama-sama nyaman.`,
   `kita udah genap 1 tahun aku APPPYYYY APPPPPYYYY APPPYYYYYYYY aku cinta sama kamu, sekarang saking banyaknya alasan buat aku cinta sama kamu, aku jadi bingung. jadi sekarang pokoknya aku cinta sama kamu karena itu kamu jadi aku cinta sama kamu dan cinta aku ke kamu itu nambahhhhhhh terus GAK PERNAH KURANG!!! POKOKNYA NAMBAH TEROSSSSSSS SAMPE SEKARANG SAMPE BESOK SAMPE BESOKNYA LAGI SAMPE SELAMA-LAMANYAAAAA POKOKNYA KITA NIKAH NYANGGGGGGGGGGGGGGG KITA HARUS NIKAH NYAAAAAAAANGGGGGGG UWOOOOOOO AKU CINTA BANGET SAMA KAMU CANYONGGGGGGGGGGG I LOVE YOU SOOOO MUCHHHHH CANYANGKUUUUUUUUUUUUUUUUU`,
   `timaaci banyak ya canyangkuuu, kamu mau nerima aku, kamu sampe sekarang selalu sama aku. maaci banyak juga nyaa canyangkuuu kamu selalu berusaha untuk kamu, untuk aku, dan untuk kita, aku bersyukur banget kita bisa ngebangun hubungan ini dan menjaga hubungan ini dengan sangat amat baik sehingga bisa sampe 1 tahun iniii, mudah-mudahan kita harus sampe selama-lama-lama-lama-lama-lama-lamanyaaaa pokoknya kita bareng terus ya cantikkk nanti di surga juga bareng terus ya cantikkuuuu cintakuuuu maniskuuu canyangkuuuuuuu`,
-  `Happy Anniversary NYONG! nanti kita rayain dengan kembang api nyaaa 🎇`,
+  `Happy 1st Anniversary NYONG! nanti kita rayain dengan kembang api nyaaa 🎇`,
   `mwah mwah mwahhh`,
   `😘🍓`,
-  `see you in the next version, my love, my acca aku, my nyongnyong <3`,
+  `let’s keep our love system running in the next version, my love, my acca aku, my nyongnyong <3`,
 ];
 
 const terminalClosure = [
@@ -371,7 +372,7 @@ export default function AnniversaryPage() {
                 <span className="text-[10px] uppercase tracking-[0.24em] text-[#ffbde5]/70">
                   love protocol os updater
                 </span>
-                <span className="text-[10px] uppercase tracking-[0.18em] text-[#ff73c7]">
+                <span className="text-xs uppercase tracking-[0.2em] text-[#ff73c7]">
                   v.love-system
                 </span>
               </div>
@@ -413,7 +414,7 @@ export default function AnniversaryPage() {
                 </div>
 
                 <aside className="border border-[#ff73c7]/25 bg-[#08000f]/80 p-5">
-                  <p className="text-xs uppercase tracking-[0.22em] text-[#ff73c7]">
+                  <p className="text-xs uppercase tracking-[0.2em] text-[#ff73c7]">
                     patch notes
                   </p>
                   <div className="mt-5 space-y-3 text-xs leading-6 text-[#ffbde5]/75">
@@ -471,7 +472,7 @@ export default function AnniversaryPage() {
               >
                 ♥
               </button>
-              <p className="text-xs uppercase tracking-[0.22em] text-[#ff73c7]">
+              <p className="text-xs uppercase tracking-[0.2em] text-[#ff73c7]">
                 sealed capsule
               </p>
 
@@ -537,7 +538,7 @@ export default function AnniversaryPage() {
               <div className="mt-7 border border-[#ff73c7]/25 bg-black/55 p-4">
                 <div className="flex items-center justify-between gap-3">
                   <div>
-                    <p className="text-xs uppercase tracking-[0.22em] text-[#ff73c7]">
+                    <p className="text-xs uppercase tracking-[0.2em] text-[#ff73c7]">
                       love quest
                     </p>
                     <p className="mt-1 text-[11px] uppercase tracking-[0.14em] text-[#ffbde5]/60">
@@ -579,7 +580,7 @@ export default function AnniversaryPage() {
                 <div>
                   <div className="flex flex-col gap-4 border-b border-[#ff73c7]/20 pb-5 sm:flex-row sm:items-center sm:justify-between">
                     <div>
-                      <p className="text-xs uppercase tracking-[0.22em] text-[#ff73c7]">
+                      <p className="text-xs uppercase tracking-[0.2em] text-[#ff73c7]">
                         {selectedFolder.command}
                       </p>
                       <h2 className="mt-2 text-2xl font-black text-white sm:text-3xl">
@@ -639,7 +640,7 @@ export default function AnniversaryPage() {
                       <div>
                         {extracting ? (
                           <div>
-                            <p className="text-xs uppercase tracking-[0.22em] text-[#ff73c7]">
+                            <p className="text-xs uppercase tracking-[0.2em] text-[#ff73c7]">
                               extracting memories...
                             </p>
                             <div className="mt-4 h-1 overflow-hidden bg-[#35102c]">
@@ -711,7 +712,7 @@ export default function AnniversaryPage() {
                 </div>
               ) : firewallUnlocking ? (
                 <div className="border border-[#ff73c7]/30 bg-[#08000f]/85 p-5 text-left shadow-[0_0_30px_rgba(255,20,147,0.20)] sm:p-7">
-                  <p className="text-xs uppercase tracking-[0.22em] text-[#ff73c7]">
+                  <p className="text-xs uppercase tracking-[0.2em] text-[#ff73c7]">
                     heart_firewall bypass sequence
                   </p>
                   <h3 className="mt-3 text-2xl font-black uppercase text-white drop-shadow-[0_0_16px_rgba(255,115,199,0.55)]">
@@ -733,7 +734,7 @@ export default function AnniversaryPage() {
                       access node: heart_firewall
                     </p>
                     <h3 className="mt-3 text-xl font-black uppercase text-white">
-                      Password Brute Force Puzzle
+                      Password Brute Force
                     </h3>
                     <p className="mt-4 text-xs leading-6 text-[#ffbde5]/70">
                       The final letter is behind a simulated firewall. Run trace signals, recover the key,
@@ -875,7 +876,7 @@ export default function AnniversaryPage() {
               ) : (
                 <div className="space-y-6 text-sm leading-7 text-[#ffe6f7] sm:text-base sm:leading-8">
                   {futureMessage.map((paragraph) => (
-                    <p key={paragraph}>
+                    <p key={paragraph} className="whitespace-pre-line">
                       <DecryptedText
                         text={paragraph}
                         animate={letterOpen}
@@ -909,8 +910,8 @@ export default function AnniversaryPage() {
           </footer>
 
           {capsuleOpen && (
-            <section className={`fixed bottom-4 left-4 z-30 w-[calc(100vw-2rem)] animate-[hackerMaterialize_0.75s_steps(5,end)_forwards] border border-[#ff73c7]/35 bg-[#06000b]/90 shadow-[0_0_34px_rgba(255,20,147,0.24)] backdrop-blur-xl sm:bottom-6 sm:left-6 ${
-              heartbeatMinimized ? 'max-w-md p-3' : 'max-w-sm p-4'
+            <section className={`fixed bottom-3 left-3 z-30 w-[calc(100vw-1.5rem)] animate-[hackerMaterialize_0.75s_steps(5,end)_forwards] border border-[#ff73c7]/35 bg-[#06000b]/90 shadow-[0_0_30px_rgba(255,20,147,0.22)] backdrop-blur-xl sm:bottom-5 sm:left-5 ${
+              heartbeatMinimized ? 'max-w-sm p-3' : 'max-w-xs p-3.5'
             }`}>
               {heartbeatMinimized ? (
                 <button
@@ -921,14 +922,14 @@ export default function AnniversaryPage() {
                 >
                   <span className="h-2 w-2 shrink-0 rounded-full bg-[#ff73c7] shadow-[0_0_14px_#ff73c7]" />
                   <span className="min-w-0 flex-1">
-                    <span className="block text-[10px] uppercase tracking-[0.2em] text-[#ff73c7]">
+                    <span className="block text-[10px] uppercase tracking-[0.19em] text-[#ff73c7]">
                       heartbeat_log
                     </span>
                     <span className="mt-1 block truncate text-[11px] leading-5 text-[#ffbde5]/75">
                       <span className="text-[#ff73c7]">&gt;</span> {latestHeartbeatLog}
                     </span>
                   </span>
-                  <span className="border border-[#ff73c7]/30 px-2 py-1 text-[10px] uppercase tracking-[0.12em] text-[#ffbde5]/70">
+                  <span className="border border-[#ff73c7]/30 px-2 py-1 text-[10px] uppercase tracking-[0.11em] text-[#ffbde5]/70">
                     ^
                   </span>
                 </button>
@@ -950,19 +951,19 @@ export default function AnniversaryPage() {
                   <div className="flex items-center justify-between gap-3 border-b border-[#ff73c7]/20 pb-3 pr-10">
                     <div className="flex items-center gap-2">
                       <span className="h-2 w-2 rounded-full bg-[#ff73c7] shadow-[0_0_14px_#ff73c7]" />
-                      <p className="text-xs uppercase tracking-[0.22em] text-[#ff73c7]">
+                      <p className="text-xs uppercase tracking-[0.2em] text-[#ff73c7]">
                         heartbeat_log
                       </p>
                     </div>
                     <button
                       type="button"
                       onClick={() => setHeartbeatMinimized(true)}
-                      className="border border-[#ff73c7]/25 px-2 py-1 text-[10px] uppercase tracking-[0.12em] text-[#ffbde5]/65 transition hover:border-[#ff73c7]/60 hover:text-[#ffbde5]"
+                      className="border border-[#ff73c7]/25 px-2 py-1 text-[10px] uppercase tracking-[0.11em] text-[#ffbde5]/65 transition hover:border-[#ff73c7]/60 hover:text-[#ffbde5]"
                     >
                       -
                     </button>
                   </div>
-                  <div className="mt-3 max-h-40 space-y-2 overflow-hidden text-[11px] leading-5 text-[#ffbde5]/75 sm:max-h-none">
+                  <div className="mt-3 max-h-36 space-y-2 overflow-hidden text-[11px] leading-5 text-[#ffbde5]/75 sm:max-h-none">
                     {heartbeatLogs.map((log) => (
                       <p key={log} className="animate-[heartbeatLine_0.28s_ease-out_forwards]">
                         <span className="text-[#ff73c7]">&gt;</span> {log}
@@ -976,7 +977,12 @@ export default function AnniversaryPage() {
 
           {capsuleOpen && (
             <div className="group fixed bottom-4 right-4 z-30 flex animate-[catMaterialize_0.85s_steps(6,end)_forwards] flex-col items-end gap-2 sm:bottom-6 sm:right-6">
-              {catCollecting ? (
+              {letterOpen ? (
+                <div className="relative mr-3 max-w-64 animate-[fragmentReveal_0.5s_ease-out_forwards] border border-[#ff73c7]/45 bg-[#06000b]/95 px-4 py-3 text-center text-[11px] font-semibold lowercase leading-5 tracking-[0.1em] text-[#ffbde5] shadow-[0_0_34px_rgba(255,20,147,0.34)] after:absolute after:-bottom-2 after:right-5 after:h-3 after:w-3 after:rotate-45 after:border-b after:border-r after:border-[#ff73c7]/35 after:bg-[#06000b]">
+                  <p>happy 1st anniversary</p>
+                  <p className="text-[#ff73c7]">epo ❤︎ acca</p>
+                </div>
+              ) : catCollecting ? (
                 <div className="relative mr-3 w-64 animate-[fragmentReveal_0.4s_ease-out_forwards] border border-[#ff73c7]/40 bg-[#06000b]/95 p-3 text-left text-[10px] leading-5 tracking-[0.12em] text-[#ffbde5]/85 shadow-[0_0_28px_rgba(255,20,147,0.30)] after:absolute after:-bottom-2 after:right-5 after:h-3 after:w-3 after:rotate-45 after:border-b after:border-r after:border-[#ff73c7]/35 after:bg-[#06000b]">
                   <p><span className="text-[#ff73c7]">&gt;</span> fragment detected</p>
                   <p><span className="text-[#ff73c7]">&gt;</span> collecting data...</p>
@@ -1039,7 +1045,7 @@ export default function AnniversaryPage() {
                     disabled={isFragmentCollected('frag_05') || catCollecting}
                     aria-label="Collect final fragment from pink cat mascot"
                     title="Collect the final fragment"
-                    className={`flex h-10 w-10 items-center justify-center border text-sm transition duration-300 ${
+                    className={`flex aspect-square h-10 w-10 shrink-0 items-center justify-center border text-sm transition duration-300 ${
                       isFragmentCollected('frag_05')
                         ? 'border-[#ff73c7] bg-[#ff1493] text-black shadow-[0_0_24px_rgba(255,20,147,0.60)]'
                         : catCollecting
